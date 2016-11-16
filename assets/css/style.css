@@ -84,8 +84,11 @@ input[type=submit]{
 .container{
 	width: 650px;
 	padding: 20px;
-	background: #ebebeb;
+	background: #ffffff;
 	position: absolute;
+	margin-top: 20px;
+	border: 2px solid #dddddd
+
 	
 
 
@@ -108,19 +111,11 @@ h4 {
 	color:#ffffff;
 	background-color: #4aaaa5;
 	padding:10px;
-	margin-top: 125px;
+	
 
 }
 	
 
-}
-
-
-.img3{
-	height: 200px;
-	width: 200px;
-
-}
 
 .big{
 	overflow:auto;
@@ -137,6 +132,7 @@ h4 {
 	float:right;
 	margin-top: 20px;
 	padding:20px;
+	border: 2px solid #dddddd
 
 }
 
@@ -172,5 +168,13 @@ a {
     width: 250px;
     height:200px;
     margin: 20px;
-    border: 3px solid #73AD21;
+ }
+
+.img3 {
+	width:250px;
+	height:200px;
+}
+.title{
+	position: relative;
+	margin-top: 125px;
 }
