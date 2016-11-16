@@ -37,14 +37,12 @@ p{
 
 textarea{ 
 	width:100%; 
-	height: 100px;
+	height: 125px;
 }
 
 
 form{
 	clear: both;
-	font-color: #777777;
-
 }
 
 h1 {
@@ -52,6 +50,14 @@ h1 {
 	font-size: 23px;
 	color: #4aaaa5;
 }
+
+input[type=submit]{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 25%;
+	border: none;
+}
+
 
 #name {
 	background-color: #4aaaa5;
@@ -63,10 +69,6 @@ h1 {
 	padding: 10px 20px 10px 20px;
 }	
 
-hr { 
-    border-width: 2px;
-    border-color: solid red;
-}
 
 #bar {
 	color: #777777;
@@ -82,10 +84,9 @@ hr {
 .container{
 	width: 650px;
 	padding: 20px;
-	background-color: #ffffff;
-	margin-top: 20px;
+	background: #ebebeb;
 	position: absolute;
-	border: 2px solid #dddddd;
+	
 
 
 }
@@ -97,6 +98,28 @@ h3{
 .img1{
 	float:left;
 	margin:10px 10px 10px 0px;
+	height: 200px;
+	width: 200px;
+}
+
+
+h4 {
+	text-align: center;
+	color:#ffffff;
+	background-color: #4aaaa5;
+	padding:10px;
+	margin-top: 125px;
+
+}
+	
+
+}
+
+
+.img3{
+	height: 200px;
+	width: 200px;
+
 }
 
 .big{
@@ -142,3 +165,12 @@ a {
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-top: 20px;
+}
+
+.floating-box{
+	display: inline-block;
+    width: 250px;
+    height:200px;
+    margin: 20px;
+    border: 3px solid #73AD21;
+}
